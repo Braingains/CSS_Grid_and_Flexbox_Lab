@@ -1,0 +1,73 @@
+body > header > div{
+    background-color: rgb(52, 106, 186)
+    
+}
+
+body > header > div > h3{
+    color: white
+}
+
+body > header > div > nav > ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+
+}
+
+body > footer{
+    background-color: rgb(2, 2, 42);
+    color: white
+}
+
+body > main > footer {
+    background-color:  rgb(39, 39, 91);
+}
+body > main > article > ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+
+}
+
+body > main > article > ul > li{
+    flex:33%
+
+}
+
+body > header > section > ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+body > main > header {
+    background-color: rgb(2, 2, 42);
+}
+
+body > main > header >h3 {
+    color: white;
+}
+
+body > main > header > button {
+    background-color: #a42439;
+}
+
+body > main > article > ul{
+    justify-content: center;
+
+}
+
+.popular-destinations{
+    justify-content: center;
+    flex: 33%;
+
+}
+
+
+#flex-container-1{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
